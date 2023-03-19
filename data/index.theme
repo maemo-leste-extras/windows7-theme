@@ -1,0 +1,15 @@
+
+[Desktop Entry]
+Type=X-Hildon-Metatheme
+Name=Windows7
+Icon=/usr/share/themes/windows7/images/qgn_plat_theme_thumbnail.png
+Encoding=UTF-8
+
+Name[en_US]=Windows7
+
+[X-Hildon-Metatheme]
+GtkTheme=windows7
+IconTheme=windows7_icons
+X-MatchboxTheme=windows7
+X-AdditionalRCFiles=maemo_af_desktop
+X-OperaSkin=default.zip

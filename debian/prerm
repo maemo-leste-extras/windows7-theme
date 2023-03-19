@@ -1,0 +1,11 @@
+#! /bin/sh
+
+rm -rf /usr/share/themes/gtk-2.0/*.cache
+rm -rf /usr/share/icons/windows7_icons
+
+
+if [ "`readlink /etc/hildon/theme`" = /usr/share/themes/windows7 ]; then
+   if [ -x /usr/bin/personalisation ]; then
+	   /usr/bin/personalisation /usr/share/themes/default
+   fi
+fi
