@@ -73,7 +73,6 @@ binary-indep: build install
 	dh_installdeb
 	dh_gencontrol
 	#maemo-optify $(PKGNAME)
-	mkdir $(CURDIR)/debian/windows7-theme/usr/share/themes/windows7/
 	cp -rf $(CURDIR)/data/* $(CURDIR)/debian/windows7-theme/usr/share/themes/windows7/
 	dh_md5sums
 	dh_builddeb
