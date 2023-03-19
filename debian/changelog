@@ -1,3 +1,9 @@
+windows7-theme (0.5) jaunty; urgency=low
+
+  * Initial Maemo Leste import
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 19 Mar 2023 13:59:24 +0100
+
 windows7-theme (0.4) jaunty; urgency=low
 
   * Trying again.
