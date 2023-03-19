@@ -5,7 +5,7 @@ Maintainer: kid2k <kid2k@live.com> <www.mobile4arab.com>
 Version: 0.2
 
 Package: windows7-theme
-Architecture: armel
+Architecture: all
 Description: Windows7 theme for Maemo 5. by amj2k <kid2k@live.com> <www.mobile4arab.com>
 XB-Maemo-Display-Name: Windows7 theme
 XB-Maemo-Icon-26:
