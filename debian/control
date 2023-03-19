@@ -2,6 +2,7 @@ Source: windows7-theme
 Section: user/desktop
 Priority: optional
 Maintainer: kid2k <kid2k@live.com> <www.mobile4arab.com>
+Build-Depends: debhelper (>= 4.0.0), hildon-theme-layout-5, hildon-theme-tools, imagemagick, pkg-config
 Version: 0.2
 
 Package: windows7-theme
