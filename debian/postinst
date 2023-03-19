@@ -6,9 +6,7 @@ THEMEDIR='/usr/share/themes/windows7'
 if [ ! -d $THEMEDIR ]; then
   exit 0
 fi
-	  
-hildon-theme-cacher $THEMEDIR
 
-run-standalone.sh dbus-send --print-reply --type=method_call --dest=org.freedesktop.Notifications /org/freedesktop/Notifications org.freedesktop.Notifications.SystemNoteDialog string:"Windows7-Theme by  amj2k <kid2k@live.com> (http://mobile4arab.com)." uint32:0 string:'NAO OK!'
+hildon-theme-cacher $THEMEDIR
 
 exit 0
